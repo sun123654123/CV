@@ -15,4 +15,24 @@
       background-position: 0% 50%;
     }
   }
-  
+
+.nav.sticky {
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4.5rem;
+  width: 200%;
+  padding: 0 6rem;
+}
+
+.section {
+  transition: transform 1s, opacity 1s;
+}
+
+.section--hidden {
+  opacity: 0;
+  transform: translateY(8rem);
+}
+
